@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="icon" href="./favicon.ico">
+  <title>FunWeb | World's Best Solution Company</title>
+</head>
+
+<body>
+  <header id="header">
+    <h1><a href="/funweb/">funweb</a></h1>
+    <nav id="mnb">
+      <h2 class="hidden">membership navigation</h2>
+      <ul>
+        <li class="goLogin"><a href="#">login</a></li>
+        <li class="goJoin"><a href="#">Join</a></li>
+      </ul>
+    </nav>
+    <nav id="gnb">
+      <h2 class="hidden">funweb main menu</h2>
+      <ul>
+        <li><a href="/funweb/">Home</a></li>
+        <li><a href="./company_welcome.html">Company</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="./customer_notice.html">Customer Center</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <section id="slogan">
+      <h2 class="hidden">Slogan</h2>
+      <p>Our job is to make <br>you look good</p>
+      <a href="#">Contact Us</a>
+    </section>
+    <section id="solution">
+      <div id="solutionWrap">
+        <h2 class="hidden">Solutions</h2>
+        <article class="hosting solution">
+          <a href="#">
+            <h3>Web Hosting Solution</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+          </a>
+        </article>
+        <article class="security solution">
+          <a href="#">
+            <h3>Web Security Solution</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+          </a>
+        </article>
+        <article class="payment solution">
+          <a href="#">
+            <h3>Web payment Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetu</p>
+          </a>
+        </article>
+      </div>
+    </section>
+    <section id="customerBoard">
+      <h2 class="hidden">Customer Center</h2>
+      <section id="securityNews">
+        <h3><span>Security</span> News</h3>
+        <a href="#">
+          <dl>
+            <!-- dl 안에는 dt와 dd만 들어갈 수 있다. 그러므로, a태그로 dt와 dd를 묶을 수 없다.-->
+            <!-- 그래서 같은 게시글에 한번에 링크를 주려면, a로 dl을 감싸서 여러개를 배치할 수 있다. -->
+            <dt>[JA 소셜 크리에이터] 5기 활동을 함께할 대학생 여러분을 기다립니다. [마감]</dt>
+            <dd>JA 소셜 크리에이터 5기 모집 #청소년교육 과 #비영리 #홍보에 관심 있는 대학생 여러분을 기다립니다. JA Korea는 JA(Junior Achievement)는 1919년 설립되어
+              세계 100여개 국가에서 청소년...
+            </dd>
+          </dl>
+        </a>
+        <a href="#">
+          <dl>
+            <dt>JA Korea-트랜스코스모스코리아 업무 협약</dt>
+            <dd>2022년 5월 9일(월), JA Korea(회장 이은형)는 글로벌 전문 BPO 그룹 (주)트랜스코스모스코리아(대표이사 권상철)와 청소년 교육 발전을 위한 업무 협약을 체결했습니다. 이번
+              협약식은 트랜스코스모스코리...
+            </dd>
+          </dl>
+        </a>
+        <a href="#" class="more">more for security news</a>
+      </section>
+      <section id="newsNotice">
+        <h3>News &amp; Notice</h3>
+        <!-- table태그로 마크업 할 수도 있다 -->
+        <ul>
+          <li><a href="#">2022 FedEx-JA 국제무역창업대회 ITC 국내대회 진출 2022 FedEx-JA 국제무역창업대회 ITC 국내대회
+              진출</a><span>2020.12.31</span></li>
+          <li><a href="#">[EY한영-JA] Growth to Professional 최종합격 대상자 Growth to Professional 최종합격
+              대상자</a><span>2020.12.31</span></li>
+          <li><a href="#">미래 여성리더를 꿈꾸는 청소년들을 위한 자립심 향상 프로젝트 미래 여성리더를 꿈꾸는 청소년들</a><span>2020.12.31</span></li>
+          <li><a href="#">[EY한영-JA] Growth to Professional 서류합격 대상자 Growth to Professional</a><span>2020.12.31</span>
+          </li>
+        </ul>
+        <a href="#" class="more">more for news and notice</a>
+      </section>
+    </section>
+  </main>
+  <hr>
+  <!-- 왜 div로 감싸주냐면.. -->
+  <!-- footer 상단의 화면을 꽉 채우는 선을 넣기 위해서! -->
+  <footer id="footer">
+    <div id="footerWrap">
+      <div class="info">
+        <small>All contents Copyright 2011 FunWeb Inc. all rights reserved</small>
+        <address>Contact mail : funweb@funwebbiz.com Tel: +82 64 123 4315 Fax +82 64 123 4321 </address>
+      </div>
+      <ul class="sns">
+        <li class="facebook"><a href="#">go to facebook</a></li>
+        <li class="twitter"><a href="#">go to twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
